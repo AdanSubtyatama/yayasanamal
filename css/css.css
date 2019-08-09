@@ -1,0 +1,204 @@
+
+body{ /* body ini adalah selector */
+    margin:0px; /* margin diigunakan untuk mengatur jarak */
+    font-family:sans-serif; /* mengatur font style */
+    background:#fafafa; /* mengatur background */
+}
+.showtop{
+    width:100%; /* mengatur lebar kotak */
+    background:#2F4858; 
+    padding:1% 10%; /* mengatur jarak sisi kotak dan isi kotak */
+    color: white; /* mengatur warna tukisan */
+    box-sizing:border-box; /* ini agar ketika mengubah padding tidak terjadi perubahan pada ukuran kotak sebenarnya */
+}
+header{
+    width:100%; 
+    height:720px; /* mengatur tinggi  */
+    padding:0 6%; 
+    box-sizing:border-box;
+    background:url("../assets/back.png"); 
+    background-size: 100%; /* mengatur besar background */
+    background-attachment: fixed; /* agar background pada posisi yang sama, efek paralax */
+}
+nav img{
+    float: left; /* float digunakan untuk mengatur agar img berada disebalah kiri */
+    margin-top:-2%;
+}
+nav{
+    float: left;
+    /* background-color:white; */
+    width:100%;
+}
+nav ul{
+    /* background:red; */
+    float: right;
+    display: inline-block; /* mengatur tampilan box di tag ul agar inline dan berbentuk block atau blok */
+    width:60%;
+    margin-top:2%;
+}
+nav ul li{
+    float: right;
+    margin-left:2%;
+    display: inline-block;
+   
+    font-weight:bold;
+  
+    padding:2%;
+}
+nav ul a{
+    text-decoration: none; /* mengatur apakah teks akan diberi dekorasi seperti garis bawah dll */
+    color:white;
+}
+nav ul a:hover{
+    color: #E3E2E2;
+}
+.intersting{
+    background-color:#E63946;
+    border-radius:10px;
+    color:black;
+    text-decoration: none;
+    padding:2% 3%;
+}
+p{
+    text-align: justify;
+}
+.teksbaner{
+    text-align: center;
+    width:50%;
+    color: white;
+    font-size:2em;
+    margin:20% 0 0% 19%;
+    position: absolute; /* mengatur jenis posisi pada tag */
+}
+.container{
+    width:100%;
+    padding:6% 6%;
+    height:auto;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+}
+h2 {
+    text-align: center;
+    color:#457B9D;
+}
+h4{
+    text-align:center;
+    font-weight:normal; /* mengatur ketebalan font */
+}
+.colom3 img{
+    width : 111%;
+    margin:-5.5% -5.5% 5% -5.5%;
+
+}
+.colom3{
+    position: relative;
+    background:white;
+    width:27%;   
+    float :left;
+    padding:1.5%;
+    margin:1% 1.5%;display: block;
+}
+.colom33{
+    width:22%;
+    position: relative;
+    float: left;
+    margin:1% 1.5%;display: block;
+    color:white;text-align: justify;
+    /* background:red; */
+    box-sizing:border-box;
+    
+}
+.detail {
+    color:black;
+    text-decoration:none;
+    display: inline-block;
+    padding:4% 10%;
+    margin:20% 2% 2% 2%;
+    border-radius:20px;
+    color: white;
+    background-color:#E63946;
+}
+.backgroundjudul{
+    width:113.8%;
+    padding:2% 6%;
+    box-sizing:border-box;
+    margin:0 0% 5% -7%;
+    background:#E3E2E2;
+    float: left;
+}
+.backgroundcontainer{
+    float:left;
+    background: url(../assets/back.png);
+    background-attachment: fixed;
+    background-size:100%;
+    width:100%;
+    margin:10% 0;
+    padding:0% 6%;
+    color:white;
+    height:720px;
+    display: block;
+    box-sizing: border-box;
+}
+.colom2{
+    width:50%;
+    padding:2%;
+    box-sizing: border-box;
+    float: left;
+}
+form input,textarea{
+    width:100%;
+    padding:1.5%;
+    
+}
+.detail:hover,input[type=submit]:hover{
+    background: #457B9D;
+    transition:0.5s;
+}
+.active{
+    color: skyblue;
+    text-decoration: underline;
+}
+.intersting:hover{
+    font-weight: bold;
+    background:#457B9D;
+    color:white;
+    transition:0.3s;
+}
+form input[type=submit]{
+   
+    padding:3%;
+    border:none;
+    background:#E63946;
+    color: white;
+    cursor: pointer;
+}
+h3{
+    color:#2F4858;
+}
+.colom21{
+    width:74%;
+    padding:2% 2% 15% 2%;
+    margin:1% 1% 1% 0%;
+    float: left;
+    box-sizing: border-box;
+    background:white;
+}
+.colom22{
+    width:24%;
+    margin:1% 1% 1% 0%;
+    float: left;
+    padding:2%;
+    box-sizing:border-box;
+    background:white;
+}
+.colom1{
+    width:100%;
+    float: left;
+    border:1px solid rgb(200,200,200);
+    padding:1%;
+    margin:2% 0%;
+}
+.colom1 img{
+    width:95%;
+}

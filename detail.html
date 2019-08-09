@@ -1,0 +1,107 @@
+<!--  -->
+<!DOCTYPE html> <!-- ini menandakan bahwa sebuah dokumen html -->  
+<html> <!-- struktur html -->
+    <head> <!-- struktur html head digunakan menampung bagian head dari html sperti title, icon dll -->
+        <meta charset="utf-8"/> <!-- pemberi pesan search engine bahwa ini pengkdean utf8 -->
+        <title>Yayasan Amal Mulia Indonesia</title> <!-- tempat title  -->
+        <link href="assets/logo.jpg" rel="shortcut icon"> <!-- link icon -->
+        <link rel="stylesheet" href="css/css.css"> <!-- link css external -->
+       <!-- css internal -->
+       <style> 
+            header{
+                height:300px;
+            }
+            .teksbaner{ /* ini selector class jika id pake # */
+                margin-top:10%;
+                display: block;
+                border:2px solid white;
+                padding:2% 0%;
+                border-radius:5px;
+            }h1{ /* ini juga selector */
+                text-align:left;  /* ini formating text*/
+                background:#457B9D;  /* ini untuk mengganti background*/
+                color:white; /* ini untuk mengganti warna teks*/
+                padding:1%;
+            }.showtop{
+                font-size:0.8em;
+            }
+        </style>
+    </head>
+    <body> <!-- tag body html tempat visualisasi programer berkarya -->
+        <div class="showtop">Telp : +62 9652 153 135</div> <!-- tag div dengan class css external -->
+        <header> <!-- tag baru html 5 tempat header dari websiet -->
+                <nav> <!--  tag nav tempat navigasi atas -->
+                        <img src="assets/logo2.png" width="25%" alt="eror"> <!-- img untk pemanggilan gambar -->
+                        <ul> <!-- tag ul untuk pembuatan list yang didalamnya ada tag li -->
+                            <li class="intersting"><a href="donasi.html">Ingin Donasi</a></li> <!-- tag a untuk link -->
+                            <li><a href="kabarkita.html">Kabar Kita</a></li> <!-- tag a untuk link -->
+                            <li><a href="pengurus.html">Pengurus</a></li> <!-- tag a untuk link -->
+                            <li><a href="tentangkami.html">Tentang Kami</a></li> <!-- tag a untuk link -->
+                            <li><a href="index.html">Beranda</a></li>                     <!-- tag a untuk link -->
+                        </ul>
+                    </nav>
+                    <div class="teksbaner"> <!-- tag div dengan class css external -->
+                         Panti Asuhan
+                    </div>
+        </header>
+        <div class="showtop" style="padding-left:8%;background:black;">Detail / Panti Asuhan</div> <!-- tag div dengan class css external dan inline-->
+        <!-- maka css external juga dibaca cuman secara prioritas selector css inline diutamakan -->
+        <div class="container">
+            <div class="colom21">
+                <h1>Panti Asuhan</h1> <!-- tah h1 untuk teks heading -->
+                <img src="assets/panti.jpg" width="100%" alt="eror">
+                <p> <!-- tag p untuk paragraf -->
+                        Panti Sosial Asuhan Anak (PSAA) sebelumnya adalah Panti Asuhan, yang kemudian oleh Dinas Sosial DKI Jakarta diubah menjadi Panti Sosial Asuhan Anak.
+                            <br><br> <!-- tag br untuk memberi jarak baris break -->
+                        Panti Sosial Asuhan Anak adalah proyek pelayanan dan penyantunan terhadap anak-anak yatim, piatu, yatim-piatu, keluarga retak, dan anak terlantar dengan cara memenuhi segala kebutuhan, baik berupa material maupun spiritual; meliputi: sandang, pangan, papan, pendidikan, kesehatan, dan lain-lain.
+                        <br><br>
+                        <small>by adan subtyatama</small> <!-- tag small tag formating text jadi text ini ukuranya akan menjadi kecil -->
+                        
+                </p>
+            </div>
+            <div class="colom22">
+                <h3>Quick Contact</h3> <!-- tag h3 untuk formati heading 3 -->
+                <form action=""> <br> <!-- tag div form tempat form dimulai dan disini bisa diberi aksi setelah form diisi -->
+                    <input type="text" placeholder="Your Name..." name="nama"> <!-- tag input tipe teks -->
+                    <br><br>
+                    <input type="email" placeholder="Your Email..." name="email"> <!-- tag input type email-->
+                    <br><br>
+                    <input type="text" placeholder="Subject..." name="subject"> 
+                    <br><br>
+                    <textarea style="height:100px" placeholder="Message..." name="message"></textarea> <!-- tag inputan tipe text area-->
+                    <br><br><input type="submit" name="submit" value="Contact US"><!-- tag tipe submit -->
+                </form>
+
+                
+            </div>
+        </div>
+        <footer> <!-- tag html5 tag tempat footer dibuat -->
+                <div class="container" style="background-color:#457B9D;float: right;padding:2% 6%;">
+                        
+                    <div class="colom33">
+                    
+                    <h4 style="text-align:left;">Kontak Kami</h4><br>
+                    +62-21-723 9778 & (02162)<br>
+                    087 8877 68388
+                </div>
+                <div class="colom33">
+                        <h4 style="text-align:left;">Alamat Email</h4><br>
+                        dani@amalmulia.com
+                    </div>
+                    
+                        <div class="colom33">
+                        <h4 style="text-align:left;">Jam Kerja</h4><br>
+                        Senin - Jumat 07:00 16:30
+                    </div>
+                    <div class="colom33">
+                            <h4 style="text-align:left;">Lokasi Kami</h4><br>
+                            Jl Masjid Al Mubarok, No. 16 RT 006/010 Cipulir,
+                            Kebayoran Lama, Jakarta Selatan Indonesia, 12230
+                        </div>
+                </div>
+                <div class="container" style="background:#203848;padding:1% 6%;float: left;color:white;font-size:0.9em;">
+                &copy; All right reserved 2019 Yayasan Amal Mulia Indonesia by Adan Subtyatama
+                </div>
+            </footer>
+    </body>
+    </html>
